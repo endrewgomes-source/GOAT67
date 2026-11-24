@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://api.csplusplus.com" crossorigin />
+  <link rel="dns-prefetch" href="https://api.csplusplus.com" />
+  <script nonce="+JQBmbmMO9hLROXYxLjD5Q==">
+    (function () {
+      var guest = false;
+      try { guest = !window.localStorage.getItem('cspp_app_token'); } catch (e) { return; }
+      if (!guest) return;
+      var hints = [
+        ['dns-prefetch', 'https://www.googletagmanager.com'],
+        ['dns-prefetch', 'https://accounts.google.com'],
+        ['dns-prefetch', 'https://media.ethicalads.io'],
+        ['dns-prefetch', 'https://server.ethicalads.io']
+      ];
+      for (var i = 0; i < hints.length; i++) {
+        var l = document.createElement('link');
+        l.rel = hints[i][0];
+        l.href = hints[i][1];
+        document.head.appendChild(l);
+      }
+    })();
+  </script>
+    <meta name="description" content="Write HTML, CSS &amp; JavaScript and see it live — free, no install, runs on any device. Multi-file web editor with share links and live collaborative editing, built for classrooms." />
+  <meta name="author" content="CS++ / Yellow Dart Publishing" />
+  <meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1" />
+  <link rel="canonical" href="https://csplusplus.com/web-ide/" />
+
+  <meta property="og:site_name" content="CS++" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Free Online HTML, CSS &amp; JavaScript Editor · CS++" />
+  <meta property="og:description" content="Write HTML, CSS &amp; JavaScript and see it live — free, no install, runs on any device. Multi-file web editor with share links and live collaborative editing, built for classrooms." />
+  <meta property="og:url" content="https://csplusplus.com/web-ide/" />
+  <meta property="og:image" content="https://csplusplus.com/wp-content/plugins/cspp-app/images/cspp-social-20261002.png" />
+  <meta property="og:locale" content="en_US" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Free Online HTML, CSS &amp; JavaScript Editor · CS++" />
+  <meta name="twitter:description" content="Write HTML, CSS &amp; JavaScript and see it live — free, no install, runs on any device. Multi-file web editor with share links and live collaborative editing, built for classrooms." />
+  <meta name="twitter:image" content="https://csplusplus.com/wp-content/plugins/cspp-app/images/cspp-social-20261002.png" />
+
+  <link rel="alternate" type="text/plain" title="llms.txt" href="https://csplusplus.com/llms.txt" />
+  <link rel="alternate" type="text/plain" title="llms-full.txt" href="https://csplusplus.com/llms-full.txt" />
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="https://csplusplus.com/sitemap-cspp.xml" />
+
+  <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "EducationalOrganization",
+            "@id": "https://csplusplus.com/#organization",
+            "name": "CS++",
+            "alternateName": [
+                "CSplusplus",
+                "Yellow Dart Publishing"
+            ],
+            "legalName": "Kevin P Hare LLC",
+            "url": "https://csplusplus.com/",
+            "logo": "https://csplusplus.com/wp-content/plugins/cspp-app/images/cspp-logo.png",
+            "description": "Online computer science education platform with ten free courses \u2014 AP CSP, AP CSA (Java), AP Cybersecurity, CS Foundations, Intro to Java, Intro to Python, Intro to Web Design, HCI Design, Data Structures & Algorithms, and 2D Game Design & Development \u2014 plus in-browser Java, Python and web IDEs, mock exams, and classroom tools.",
+            "foundingDate": "2018",
+            "founder": {
+                "@type": "Person",
+                "@id": "https://csplusplus.com/#founder",
+                "name": "Kevin Hare",
+                "alternateName": [
+                    "Kevin P. Hare",
+                    "Kevin P Hare"
+                ],
+                "url": "https://csplusplus.com/about/",
+                "image": "https://csplusplus.com/wp-content/plugins/cspp-app/dist/images/kevin-hare-headshot.jpg",
+                "jobTitle": "Founder",
+                "description": "Founder of CS++ and Yellow Dart Publishing. AP Computer Science teacher with 20+ years in the classroom; author of the published AP CSP textbook Computer Science Principles (first ed. 2017, 5th ed. 2024, Yellow Dart Publishing).",
+                "knowsAbout": [
+                    "Computer science education",
+                    "AP Computer Science Principles",
+                    "AP Computer Science A"
+                ],
+                "alumniOf": {
+                    "@type": "CollegeOrUniversity",
+                    "name": "Georgia Institute of Technology",
+                    "sameAs": "https://www.gatech.edu/"
+                },
+                "sameAs": [
+                    "https://www.linkedin.com/in/kevinphiliphare/",
+                    "https://www.amazon.com/stores/author/B072B974P7",
+                    "https://www.goodreads.com/author/show/17959969.Kevin_Hare",
+                    "https://www.wikidata.org/wiki/Q141774271"
+                ],
+                "worksFor": {
+                    "@id": "https://csplusplus.com/#organization"
+                }
+            },
+            "sameAs": [
+                "https://www.facebook.com/p/CS-Plus-Plus-Computer-Science-Principles-100063258157189/",
+                "https://www.instagram.com/cs.plus.plus/",
+                "https://www.tiktok.com/@cs.plus.plus",
+                "https://www.youtube.com/@cs-plus-plus",
+                "https://www.linkedin.com/company/cs-plus-plus/",
+                "https://www.wikidata.org/wiki/Q141901161"
+            ],
+            "makesOffer": [
+                {
+                    "@type": "Offer",
+                    "name": "Free CS++ account",
+                    "category": "Free",
+                    "price": "0",
+                    "priceCurrency": "USD",
+                    "availability": "https://schema.org/InStock",
+                    "url": "https://csplusplus.com/register/",
+                    "description": "Every lesson in all ten courses, the printable handouts, the editable slide decks, the browser IDEs, one full-length mock exam per course, and teacher classrooms with rostering and progress tracking \u2014 free with a free account. Signing up costs $0 and takes no credit card.",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "CS++ course access",
+                        "provider": {
+                            "@id": "https://csplusplus.com/#organization"
+                        }
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "name": "CS++ Student Membership",
+                    "category": "Paid",
+                    "price": "9.99",
+                    "priceCurrency": "USD",
+                    "availability": "https://schema.org/InStock",
+                    "url": "https://csplusplus.com/product/cspp-lifetime/",
+                    "description": "Optional one-time upgrade adding mock exams 2-5, uncapped quiz practice and higher AI limits. It does not buy course access \u2014 the courses are free.",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "CS++ Student Membership"
+                    }
+                }
+            ]
+        },
+        {
+            "@type": "WebSite",
+            "@id": "https://csplusplus.com/#website",
+            "url": "https://csplusplus.com/",
+            "name": "CS++",
+            "publisher": {
+                "@id": "https://csplusplus.com/#organization"
+            },
+            "inLanguage": "en-US"
+        },
+        {
+            "@type": "WebPage",
+            "@id": "https://csplusplus.com/web-ide/#webpage",
+            "url": "https://csplusplus.com/web-ide/",
+            "name": "Free Online HTML, CSS & JavaScript Editor \u00b7 CS++",
+            "description": "Write HTML, CSS & JavaScript and see it live \u2014 free, no install, runs on any device. Multi-file web editor with share links and live collaborative editing, built for classrooms.",
+            "isPartOf": {
+                "@id": "https://csplusplus.com/#website"
+            },
+            "inLanguage": "en-US"
+        },
+        {
+            "@type": "BreadcrumbList",
+            "@id": "https://csplusplus.com/web-ide#breadcrumb",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://csplusplus.com/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Web IDE",
+                    "item": "https://csplusplus.com/web-ide"
+                }
+            ]
+        },
+        {
+            "@type": [
+                "SoftwareApplication",
+                "WebApplication"
+            ],
+            "@id": "https://csplusplus.com/web-ide#app",
+            "name": "CS++ Web IDE \u2014 HTML, CSS & JavaScript Editor",
+            "alternateName": [
+                "Online HTML editor",
+                "HTML CSS JavaScript editor",
+                "HTML CSS JS playground",
+                "Web IDE online",
+                "Front-end playground for students",
+                "HTML editor with live preview"
+            ],
+            "description": "A free, in-browser HTML, CSS, and JavaScript editor with live preview, built for beginners, students, and classrooms. Create multi-file projects (index.html, styles.css, script.js), see your page update live as you type, upload image and asset files, and share your work with a link. Works on Chromebooks and any device \u2014 no install, and no login required to start. Used in the CS++ Intro to Web Design course.",
+            "url": "https://csplusplus.com/web-ide/",
+            "applicationCategory": "EducationalApplication",
+            "applicationSubCategory": "DeveloperApplication",
+            "operatingSystem": "Web",
+            "browserRequirements": "Requires a modern web browser; no install required",
+            "inLanguage": "en-US",
+            "isAccessibleForFree": true,
+            "offers": {
+                "@type": "Offer",
+                "price": "0",
+                "priceCurrency": "USD"
+            },
+            "featureList": "Live HTML/CSS/JavaScript preview, multi-file projects (index.html, styles.css, script.js), in-browser code editing with syntax highlighting, image and asset uploads, shareable project links, view-as-web-page share mode, works on Chromebooks and any device, no install, no login to start",
+            "educationalUse": "Instruction",
+            "learningResourceType": "Interactive tool",
+            "teaches": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Front-end web development",
+                "Responsive web pages",
+                "The DOM"
+            ],
+            "educationalLevel": "Beginner",
+            "typicalAgeRange": "11-18",
+            "audience": [
+                {
+                    "@type": "EducationalAudience",
+                    "educationalRole": "student"
+                },
+                {
+                    "@type": "EducationalAudience",
+                    "educationalRole": "teacher"
+                }
+            ],
+            "keywords": "online html editor, html css javascript editor, html css js playground, code playground online, html editor online free, online web editor, html editor for students, html css editor with live preview, front end playground, learn html css online editor, web ide online, free html editor no login, html editor for chromebooks",
+            "provider": {
+                "@type": "EducationalOrganization",
+                "name": "CS++",
+                "url": "https://csplusplus.com"
+            }
+        },
+        {
+            "@type": "FAQPage",
+            "@id": "https://csplusplus.com/web-ide#faq",
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": "Is the Web IDE free?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes. The CS++ Web IDE is completely free to use \u2014 no payment, no subscription, and no sign-up required to start writing HTML, CSS, and JavaScript."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Do I need to install anything or log in?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "No. The editor runs entirely in your browser. There is nothing to install, and you can start coding immediately with no login. You only need a free account to save projects to your CS++ account or upload your own images and files; sharing a project by link does not require the viewer to log in."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Does it work on Chromebooks and school devices?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes. Because everything runs in the browser, it works on Chromebooks, iPads, phones, Mac, and Windows. There is no software to install, so it is well suited to managed school devices and locked-down lab computers."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "What does the Web IDE support?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "It is a multi-file HTML/CSS/JavaScript editor with live preview. You edit index.html, styles.css, and script.js, and the preview updates as you type. You can upload images and other assets, view your project as a real web page, and copy a shareable link to your work."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Is it good for beginners and students learning front-end?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes. It is designed for beginners learning HTML, CSS, and JavaScript rather than for professional developers. The clean, simple multi-file layout and instant live preview make it easy to experiment, and it is used in the CS++ Intro to Web Design course."
+                    }
+                },
+                {
+                    "@type": "Question",
+                    "name": "Can teachers use it in the classroom?",
+                    "acceptedAnswer": {
+                        "@type": "Answer",
+                        "text": "Yes. Teachers can use the Web IDE for demos and student projects, and students can share their work by link for review. It pairs with the CS++ Intro to Web Design course, which uses the same in-browser HTML/CSS/JavaScript environment."
+                    }
+                }
+            ]
+        }
+    ]
+}  </script>
+    
+  <title>Free Online HTML, CSS &amp; JavaScript Editor · CS++</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { height: 100%; background: #000; color: #e4e4e7; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+    /* Light theme: keep the pre-bundle background in sync so light-mode users
+       don't see a flash of black before the CSS bundle loads. The data-theme
+       attribute is set by the inline script below, before first paint. */
+    html[data-theme="light"], html[data-theme="light"] body { background: #f1f3f5; color: #1a1d21; }
+    #root { min-height: 100vh; }
+    /* Server-rendered prose inside #root (see cspp_seo_render_body_intro in
+       seo.php). React's createRoot() replaces it on mount, so this styling only
+       ever governs the seconds before the bundle is ready — and the text a
+       JS-less crawler reads. Deliberately plain: it must not look like a broken
+       version of the real page, and it must be legible in both themes off the
+       same two colours the shell already sets on <html>. */
+    .cspp-shell-intro { max-width: 62rem; margin: 0 auto; padding: 3rem 1.25rem 4rem; line-height: 1.6; }
+    .cspp-shell-intro h1 { font-size: 1.9rem; line-height: 1.25; margin-bottom: 0.75rem; }
+    .cspp-shell-intro h2 { font-size: 1.05rem; margin: 2rem 0 0.6rem; opacity: 0.85; }
+    .cspp-shell-intro p { max-width: 42rem; margin-bottom: 0.75rem; }
+    .cspp-shell-intro dt { font-weight: 600; margin-top: 1rem; }
+    .cspp-shell-intro dd { max-width: 42rem; margin: 0.25rem 0 0; opacity: 0.9; }
+    .cspp-shell-intro nav { display: flex; flex-wrap: wrap; gap: 1.5rem 3rem; margin-top: 1.5rem; }
+    .cspp-shell-intro ul { list-style: none; }
+    .cspp-shell-intro li { margin: 0.3rem 0; }
+    .cspp-shell-intro a { color: inherit; }
+    .cspp-shell-intro__note { margin-top: 2.5rem; font-size: 0.85rem; opacity: 0.6; }
+  </style>
+  <script nonce="+JQBmbmMO9hLROXYxLjD5Q==">
+    /* Color theme: resolve light/dark BEFORE first paint to avoid a flash of
+       the wrong theme. Mirrors frontend/src/index.js. Default = system → dark.
+
+       The theme lives on the ACCOUNT (User.preferences.theme), but this runs
+       before a single byte of bundle — no round-trip is possible here — so it
+       reads the per-user localStorage cache written by utils/userScope.js.
+
+       Identity comes from the mirrored user payload rather than from PHP on
+       purpose: this document is cached for anonymous visitors (see the
+       Cache-Control branch above), so baking a user id into the markup would
+       hand one student's id to the next. window.CSPP carries it but is
+       injected in <body>, after this runs, so localStorage it is. No payload
+       yet (first load of a session, or a guest) falls back to the bare key.
+
+       KEEP IN SYNC with frontend/src/index.js and scopedKey() in
+       utils/userScope.js. Three copies, one key format. */
+    (function () {
+      try {
+        var uid = null;
+        try {
+          var rawUser = localStorage.getItem('cspp_app_user');
+          var parsed = rawUser ? JSON.parse(rawUser) : null;
+          if (parsed && parsed.wpUserId !== null && parsed.wpUserId !== undefined) {
+            uid = String(parsed.wpUserId);
+          }
+        } catch (e) { /* no identity — fall through to the unscoped key */ }
+        var m = uid ? localStorage.getItem('cspp-theme::u' + uid) : null;
+        if (m === null || m === undefined) { m = localStorage.getItem('cspp-theme'); }
+        var t = 'dark';
+        if (m === 'light' || m === 'dark') { t = m; }
+        else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches) { t = 'light'; }
+        document.documentElement.setAttribute('data-theme', t);
+      } catch (e) { document.documentElement.setAttribute('data-theme', 'dark'); }
+    })();
+  </script>
+    <link rel="stylesheet" href="https://csplusplus.com/wp-content/plugins/cspp-app/dist/static/css/main.3eef0d50.css" />
+    <!-- Google tag (gtag.js) — anonymous/marketing traffic only.
+       Privacy Policy §12.A promises analytics never runs for signed-in
+       users, so GA is only injected when no app session token exists.
+       Dynamic injection is allowed by the CSP script-src domain allowlist
+       (googletagmanager.com); if localStorage is unreadable we fail closed. -->
+  <script nonce="+JQBmbmMO9hLROXYxLjD5Q==">
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    (function () {
+      try {
+        if (window.localStorage.getItem('cspp_app_token')) return;
+        // Never load GA on local dev / preview hosts — keeps localhost traffic
+        // out of the production GA property.
+        var h = location.hostname;
+        if (h === 'localhost' || h === '127.0.0.1' || h === '[::1]' || /\.local$/.test(h)) return;
+      } catch (e) { return; }
+      var s = document.createElement('script');
+      s.async = true;
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=G-N724YVEYPP';
+      document.head.appendChild(s);
+      gtag('js', new Date());
+      // send_page_view:false — the SPA sends its own page_view from App.js on
+      // every route change (trackEvent('page_view'), which also mirrors the hit
+      // to the first-party store). Leaving the automatic one on meant GA counted
+      // the first view twice, and Enhanced Measurement's history-change trigger
+      // counted every subsequent one twice: 4.07 GA views per session against a
+      // real ~2.0. Sessions, users, landing pages and source/medium were never
+      // affected — only views, and anything derived from them.
+      //
+      // 🛑 This makes App.js the ONLY emitter. If that effect ever stops firing,
+      // GA records zero views rather than too many, and nothing else will warn
+      // you. Verify in dataLayer after any change to App.js's page_view effect.
+      // The matching GA4 property setting — Enhanced Measurement > "page changes
+      // based on browser history events" — still has to be unticked by hand in
+      // the Admin UI; until it is, SPA navigations are still double-counted.
+      //
+      // No advertising use of GA data (Privacy Policy §12.A: aggregate traffic
+      // only, no behavioral advertising). Google signals is OFF in the property
+      // (Kevin, 2026-10-09); this keeps it off if that setting is ever flipped,
+      // and marks every hit npa=1 (no ads personalization).
+      // 🛑 These must be gtag('set', …) BEFORE config. Passed as config
+      // parameters they changed nothing (probed 2026-10-09: still npa=0).
+      // They do NOT stop the stats.g.doubleclick.net / www.google.com
+      // /g/collect hits, which also fire with signals off; only Consent Mode
+      // (ad_storage denied) removes the doubleclick one.
+      gtag('set', 'allow_google_signals', false);
+      gtag('set', 'allow_ad_personalization_signals', false);
+      gtag('config', 'G-N724YVEYPP', { send_page_view: false });
+    })();
+  </script>
+</head>
+<body>
+  <script nonce="+JQBmbmMO9hLROXYxLjD5Q==">window.CSPP = {"pluginUrl":"https:\/\/csplusplus.com\/wp-content\/plugins\/cspp-app\/dist","scriptNonce":"+JQBmbmMO9hLROXYxLjD5Q=="};</script>
+  <div id="root">  <div class="cspp-shell-intro">
+    <h1>Free Online HTML, CSS &amp; JavaScript Editor</h1>
+    <p>Write HTML, CSS &amp; JavaScript and see it live — free, no install, runs on any device. Multi-file web editor with share links and live collaborative editing, built for classrooms.</p>
+        <h2>Common questions</h2>
+    <dl>
+            <dt>Is the Web IDE free?</dt>
+      <dd>Yes. The CS++ Web IDE is completely free to use — no payment, no subscription, and no sign-up required to start writing HTML, CSS, and JavaScript.</dd>
+            <dt>Do I need to install anything or log in?</dt>
+      <dd>No. The editor runs entirely in your browser. There is nothing to install, and you can start coding immediately with no login. You only need a free account to save projects to your CS++ account or upload your own images and files; sharing a project by link does not require the viewer to log in.</dd>
+            <dt>Does it work on Chromebooks and school devices?</dt>
+      <dd>Yes. Because everything runs in the browser, it works on Chromebooks, iPads, phones, Mac, and Windows. There is no software to install, so it is well suited to managed school devices and locked-down lab computers.</dd>
+            <dt>What does the Web IDE support?</dt>
+      <dd>It is a multi-file HTML/CSS/JavaScript editor with live preview. You edit index.html, styles.css, and script.js, and the preview updates as you type. You can upload images and other assets, view your project as a real web page, and copy a shareable link to your work.</dd>
+            <dt>Is it good for beginners and students learning front-end?</dt>
+      <dd>Yes. It is designed for beginners learning HTML, CSS, and JavaScript rather than for professional developers. The clean, simple multi-file layout and instant live preview make it easy to experiment, and it is used in the CS++ Intro to Web Design course.</dd>
+            <dt>Can teachers use it in the classroom?</dt>
+      <dd>Yes. Teachers can use the Web IDE for demos and student projects, and students can share their work by link for review. It pairs with the CS++ Intro to Web Design course, which uses the same in-browser HTML/CSS/JavaScript environment.</dd>
+          </dl>
+        <nav aria-label="CS++ sections">
+            <div>
+        <h2>Courses</h2>
+        <ul>
+                    <li><a href="/apcsp/">AP Computer Science Principles</a></li>
+                    <li><a href="/apcsa/">AP Computer Science A (Java)</a></li>
+                    <li><a href="/apcyber/">AP Cybersecurity</a></li>
+                    <li><a href="/introprog/">Intro to Java</a></li>
+                    <li><a href="/intropython/">Intro to Python</a></li>
+                    <li><a href="/webdesign/">Intro to Web Design</a></li>
+                    <li><a href="/foundations/">CS Foundations</a></li>
+                    <li><a href="/hci/">HCI Design</a></li>
+                    <li><a href="/dsa/">Data Structures &amp; Algorithms</a></li>
+                    <li><a href="/gamedesign/">2D Game Design &amp; Development</a></li>
+                  </ul>
+      </div>
+            <div>
+        <h2>For teachers</h2>
+        <ul>
+                    <li><a href="/csp-curriculum/">AP CSP teacher curriculum</a></li>
+                    <li><a href="/csa-curriculum/">AP CSA teacher curriculum</a></li>
+                    <li><a href="/teacher-paced-courses/">Classrooms and teacher tools</a></li>
+                    <li><a href="/lms/">LMS and Google Classroom</a></li>
+                    <li><a href="/csprep-course/">CS teacher certification prep</a></li>
+                    <li><a href="/teacher-certification/">CS teacher certification by state</a></li>
+                    <li><a href="/teacher-certification/for-schools/">Certification prep for districts and programs</a></li>
+                    <li><a href="/pricing/">Pricing</a></li>
+                  </ul>
+      </div>
+            <div>
+        <h2>Free tools</h2>
+        <ul>
+                    <li><a href="/python-ide/">Python IDE</a></li>
+                    <li><a href="/java-ide/">Java IDE</a></li>
+                    <li><a href="/web-ide/">Web IDE</a></li>
+                    <li><a href="/ai-explorer/">Hour of AI</a></li>
+                    <li><a href="/ctf/">Cybersecurity capture the flag</a></li>
+                    <li><a href="/sql-detective/">SQL Detective</a></li>
+                    <li><a href="/digital-footprint/">Digital footprint escape room</a></li>
+                    <li><a href="/live/">Duck Race Live class quiz</a></li>
+                    <li><a href="/tools/">All tools and games</a></li>
+                  </ul>
+      </div>
+          </nav>
+    <p class="cspp-shell-intro__note">Loading the interactive version of this page&hellip;</p>
+  </div>
+    </div>
+      <script src="https://csplusplus.com/wp-content/plugins/cspp-app/dist/static/js/main.55ef5295.js"></script>
+  </body>
+</html>
+    
